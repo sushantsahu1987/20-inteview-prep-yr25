@@ -1,0 +1,32 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Output of `go build` and `go run`
+/bin/
+/out/
+*.exe
+*.test
+*.prof
+
+# Dependency directories (vendor/)
+vendor/
+
+# Go specific
+*.log
+*.lock
+*.mod
+*.sum
+*.db
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
